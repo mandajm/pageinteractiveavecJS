@@ -20,7 +20,8 @@ let ClickFooter = document.querySelector("footer");
 
 FONCTIONNALITÉ 2
 
-    quand un utilisateur fait un click sur l'icons contenant les trois bar horizontal, l' le code fait disparaitre la class collapse, et facons reversible avec une deuxième click
+    quand un utilisateur fait un click sur l'icons contenant les trois bar horizontal,
+    le code fait disparaitre la class collapse, et facons reversible avec une deuxième click
 en voici le code:
 
 	let target = document.querySelector("button.navbar-toggler")
@@ -49,7 +50,8 @@ si on clique sur le boutton edit du première card, le text vas se mettre en rou
 
 FONCTIONNALITÉ 4:
 
-si on clique sur le bouton "Edit" de la deuxième card, le texte de la card va se mettre en vert. Si on re-clique dessus, il redevient comme avant ! C'est-à-dire en boire.
+si on clique sur le bouton "Edit" de la deuxième card, le texte de la card va se mettre 
+en vert. Si on re-clique dessus, il redevient comme avant ! C'est-à-dire en boire.
 
 en voici le code:
 
@@ -73,7 +75,9 @@ en voici le code:
 
 FONCTIONNALITÉ 5:
 
-si un utilisateur double clique sur la navbar en haut, tout Bootstrap disparaît et la page s'affiche comme si on avait oublié de mettre le CDN qui la relie au fichier CSS et c'est de façon reverssible.
+si un utilisateur double clique sur la navbar en haut, tout Bootstrap disparaît et la 
+page s'affiche comme si on avait oublié de mettre le CDN qui la relie au fichier CSS et
+c'est de façon reverssible.
 Indice : Cherche sur Google comment désactiver le tag <link> avec JavaScript.
 
 le code:
@@ -98,7 +102,10 @@ le code:
 
 FONCTIONNALITÉ 6:
 
-La fonctionnalité sera la suivante : si un utilisateur passe sa souris sur le bouton "View" d'une card (n'importe laquelle), celle-ci va se réduire. Cela veut dire que le texte disparaît, l'image n'apparaîtra qu'à 20 % de sa taille d'origine et les boutons "Edit" / "View" restent visibles. Cette fonction sera réversible : s'il repasse sa souris, la card red
+La fonctionnalité sera la suivante : si un utilisateur passe sa souris sur le bouton "View" d'une
+card (n'importe laquelle), celle-ci va se réduire. Cela veut dire que le texte disparaît, 
+l'image n'apparaîtra qu'à 20 % de sa taille d'origine et les boutons "Edit" / "View" restent 
+visibles. Cette fonction sera réversible : s'il repasse sa souris, la card red
 
 ceci ne marche encor que sur la première card.
 
@@ -123,7 +130,8 @@ ceci ne marche encor que sur la première card.
 
 Fonctionnalité 7 :
 
-si un utilisateur clique sur le bouton gris ==>, la dernière card (en bas à droite) va passer en premier (en haut à gauche
+si un utilisateur clique sur le bouton gris ==>, la dernière card (en bas à droite) va passer
+en premier (en haut à gauche
 
 	let getFech = document.querySelectorAll("a.btn")[1];
 	getFech.addEventListener("permuter", getFech.onclick = functionpermutation)
@@ -134,3 +142,4 @@ si un utilisateur clique sur le bouton gris ==>, la dernière card (en bas à dr
 	}
 
 	
+:) 
